@@ -15,7 +15,6 @@
 }
 
 /* MODAL */
-/* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -71,19 +70,19 @@
 }
 
 /* The Close Button */
-.close {
+.closes {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    color: white;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
-    color: #bbb;
+.closes:hover,
+.closes:focus {
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
