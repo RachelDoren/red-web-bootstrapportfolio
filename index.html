@@ -22,16 +22,13 @@
                 <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Store</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Photography</a></li>
-                        <li><a href="#">UI Design</a></li>
+
+                  <div id="myBtnContainer">
+                        <li><a href="#" onclick="filterSelection("development")" class="button">Development</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#" onclick="filterSelection("graphicDesign")" class="button">UI/Graphic Design</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
+                        <li><a href="#" onclick="filterSelection("uxDesign")" class="button">UX Design</a></li>
                 </li>
             </ul>
             <form class="navbar-form navbar-left">
