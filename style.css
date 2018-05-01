@@ -1,9 +1,7 @@
 .logo {
-    margin: -11px;
+    margin: -11px !important;
     height: auto; 
     width: auto; 
-    max-width: 50px; 
-    max-height: 50px;
 }
 
 .grow:hover
